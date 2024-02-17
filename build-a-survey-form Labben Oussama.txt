@@ -1,0 +1,62 @@
+** start of undefined **
+
+
+
+  
+<h1 id="title">freeCodeCamp Survey Form</h1>
+<p id="description">Thank you for taking the time to help us improve the platform</p>
+<form id="survey-form">
+
+
+
+  <label for="name-label" id="name-label">name</label>
+<input id="name" type="text" placeholder="your name" class="labels" required>
+ <label for="email-label" id="email-label">email</label>
+  <input id="email" type="email" placeholder="your email" required>
+  <label for="number-label" id="number-label">number</label>  
+ <input id="number" type="number" min="10" max="50" placeholder="Insert your Age" required>
+ <select id="dropdown">
+   <option value=""></option>
+   <option value=""></option>
+
+
+
+   </select>
+   <input type="radio" value="set" name="grp1">
+   <input type="radio" value="unset" name="grp1">
+    <input type="radio" value="ab" name="grp2"> 
+   <input type="radio" value="bb" name="grp2">
+   <input type="checkbox" value="check"><input type="checkbox" value="checked">
+
+
+
+
+   <textarea class="placeholder=Enter your comment here..."  rows="4" cols="70">Any comments or suggestions?</textarea>
+   
+    <button id="submit" type="submit">submit</button>
+   
+
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+.title { color: rgb(247, 247, 247); text-align: center;
+     position: absolute; top: 6%;left: 20%;right: 20%;width: 150;}
+     
+
+
+
+.P  { color: rgb(255, 255, 255); text-align: center;
+     position: absolute; top: 12%;left: 15%;right: 15%; margin-top: 0%; font-style: italic; 
+font-size: 20px; padding: 5%;} 
+.background-color { border-radius: 20%;}
+
+
+     .btn {justify-content: center; margin-left: 0%; margin-right: 60%; 
+     margin-top: 5%; width: 100%;}
+
+** end of undefined **
+
